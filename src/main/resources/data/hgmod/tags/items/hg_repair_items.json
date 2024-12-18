@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:IRON_TOOL_MATERIALS"
+  ],
+  "remove": [
+    "#hgmod:hg_repair_items"
+  ]
+}

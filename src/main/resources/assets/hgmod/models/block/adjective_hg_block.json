@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hgmod:block/adjective_hg_block"
+  }
+}

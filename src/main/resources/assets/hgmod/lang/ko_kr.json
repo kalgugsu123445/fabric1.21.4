@@ -1,0 +1,10 @@
+{
+  "item.hgmod.hg_gemstone": "hg_gemstone",
+  "item.hgmod.hg_fragment": "hg_fragment",
+  "item.hgmod.hg_sword": "hg_sword",
+
+  "block.hgmod.adjective_hg_block": "adjective_hg_block",
+  "block.hgmod.crystal_hg_blcok": "crystal_hg_blcok",
+  "block.hgmod.hg_ore_block": "hg_ore_block",
+  "block.hgmod.solid_hg_block": "solid_hg_block"
+}
