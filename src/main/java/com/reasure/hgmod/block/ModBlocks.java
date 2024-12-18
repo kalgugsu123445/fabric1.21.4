@@ -17,10 +17,10 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 
 public class ModBlocks {
-    public static final Block HG_ORE_BLOCK = registerSimpleBlock("hg_ore_block", AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE));
-    public static final Block SOLID_HG_BLOCK = registerSimpleBlock("solid_hg_block", AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE));
-    public static final Block ADJECTIVE_HG_BLOCK = registerSimpleBlock("adjective_hg_block", AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE));
-    public static final Block CRYSTAL_HG_BLOCK = registerSimpleBlock("crystal_hg_block", AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE));
+    public static final Block HG_ORE_BLOCK = registerSimpleBlock("hg_ore_block", AbstractBlock.Settings.create().strength(3f, 4f).requiresTool().sounds(BlockSoundGroup.STONE));
+    public static final Block SOLID_HG_BLOCK = registerSimpleBlock("solid_hg_block", AbstractBlock.Settings.create().strength(4f, 5f).requiresTool().sounds(BlockSoundGroup.STONE));
+    public static final Block ADJECTIVE_HG_BLOCK = registerSimpleBlock("adjective_hg_block", AbstractBlock.Settings.create().strength(3f, 4f).requiresTool().sounds(BlockSoundGroup.STONE));
+    public static final Block CRYSTAL_HG_BLOCK = registerSimpleBlock("crystal_hg_block", AbstractBlock.Settings.create().strength(3f, 4f).requiresTool().sounds(BlockSoundGroup.STONE));
 
     public static <T extends Block> T register(String name, boolean shouldRegisterItem, Block.Settings settings, Function<Block.Settings, T> block) {
         Identifier id = Identifier.of(HgMod.MOD_ID, name);

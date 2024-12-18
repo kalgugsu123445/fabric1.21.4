@@ -1,10 +1,15 @@
 {
-  "item.hgmod.hg_gemstone": "hg_gemstone",
-  "item.hgmod.hg_fragment": "hg_fragment",
-  "item.hgmod.hg_sword": "hg_sword",
+  "item.hgmod.hg_gemstone": "황구 보석",
+  "item.hgmod.hg_fragment": "황구 파편",
+  "item.hgmod.hg_axe": "황구 도끼",
+  "item.hgmod.hg_pickaxe": "황구 곡괭이",
+  "item.hgmod.hg_hoe": "황구 괭이",
+  "item.hgmod.hg_shovel": "황구 삽 ",
+  "item.hgmod.hg_sword": "황구 검",
 
-  "block.hgmod.adjective_hg_block": "adjective_hg_block",
-  "block.hgmod.crystal_hg_blcok": "crystal_hg_blcok",
-  "block.hgmod.hg_ore_block": "hg_ore_block",
-  "block.hgmod.solid_hg_block": "solid_hg_block"
+
+  "block.hgmod.adjective_hg_block": "고된 황구 블록",
+  "block.hgmod.crystal_hg_block": "결정 황구 광석 블록",
+  "block.hgmod.hg_ore_block": "황구 광석 블록",
+  "block.hgmod.solid_hg_block": "단단한 황구 광석 블록"
 }
