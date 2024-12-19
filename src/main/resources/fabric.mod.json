@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.reasure.hgmod.HgMod"
+			"com.hgmod.HgMod"
 		],
 		"client": [
-			"com.reasure.hgmod.HgModClient"
+			"com.hgmod.HgModClient"
 		]
 	},
 	"mixins": [

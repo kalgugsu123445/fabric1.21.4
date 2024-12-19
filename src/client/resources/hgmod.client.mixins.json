@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.reasure.hgmod.mixin.client",
+	"package": "com.hgmod.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"

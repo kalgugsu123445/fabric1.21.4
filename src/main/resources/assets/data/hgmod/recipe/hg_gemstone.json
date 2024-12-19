@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "hgmod:adjective_hg_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "hgmod:hg_fragment"
+  }
+}
